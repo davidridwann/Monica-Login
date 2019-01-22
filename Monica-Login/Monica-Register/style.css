@@ -1,0 +1,146 @@
+body{
+	margin:0;
+	overflow-x: hidden;
+	overflow-y: hidden;
+
+}
+
+.header{
+	overflow: hidden;
+	position: relative;
+	min-height: 100vh;
+	z-index: 0;
+}
+.header-img {
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -100;
+}
+.header-overlay{
+	min-height: 100vh;
+	min-width: 100%;
+	background: #1A2980;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	opacity: 0.7;
+
+}
+
+.main-header {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to bottom, transparent 0%, white 100%);
+  margin-top: -150px;
+  height: 150px;
+  width: 100%;
+  content: '';
+}
+
+.title {
+	color: black;
+	font-size: 20px;
+	margin-bottom: 100px;
+}
+
+.login-wrap{
+	width:100%;
+	margin:0 auto;
+	max-width:500px;
+	min-height:670px;
+	position:absolute;
+	top: 0px;
+}
+.login-html{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:220px 70px 50px 70px;
+	background-color: white;
+}
+.login-html{
+	display:none;
+}
+.login-html {
+	font-family: sans-serif;
+	font-size:22px;
+	padding-bottom:0px;
+	margin:0 15px 10px 0;
+	display:inline-block;
+	border-bottom:2px solid transparent;
+}
+.regist-form{
+	max-height:100%;
+	position:relative;
+	top:-210px;
+}
+.regist-form .group{
+	margin-bottom:15px;
+}
+.regist-form.group .label,
+.regist-form .group .input{
+	width:100%;
+	color:black;
+	display:block;
+}
+.regist-form .group .button{
+	width:100%;
+	color:black;
+	color: white;
+	display:block;
+	border:none;
+	padding:15px 20px;
+}
+
+.eyebut{
+	background-color: transparent;
+	border: none;
+	color: grey;
+	display: block;
+	outline: none;
+	position: absolute;
+	right: 0;
+
+}
+
+.regist-form .group .label{
+	color:#aaa;
+	font-size:12px;
+}
+.regist-form .group .button{
+	background: #3498db;
+	font-family: Reef;
+}
+.regist-form .group .label{
+	text-align: left;
+	width:15px;
+	height:15px;
+	position:relative;
+	display:block;
+}
+.input{
+	border: 0;
+	outline: 0;
+	background: transparent;
+	border-bottom: 1px solid grey;
+	font-size: 14px;
+}
+.input:hover{
+	border: 0;
+	outline: 0;
+	background: transparent;
+	border-bottom: 1px solid #3498db;
+}
+.RM {
+	color: grey;
+	font-size: 14px;
+}
+.foot-lnk {
+	font-size: 14px;
+	color: grey;
+	text-decoration: none;
+}
+.asign {
+	text-decoration: none;
+	display: inline-block;
+}

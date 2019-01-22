@@ -1,0 +1,164 @@
+body{
+	overflow:auto;
+	overflow-y: auto;
+}
+
+
+.title {
+	color:black;
+	font-size: 1.5em;
+	top: 0;
+	margin: 0;
+}
+
+.header{
+	overflow: hidden;
+	position: relative;
+	min-height: 100vh;
+	z-index: 0;
+}
+.header-img {
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+}
+.header-overlay{
+	min-height: 100vh;
+	min-width: 100%;
+	text-align: center;
+	background: #1A2980;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	opacity: 0.7;
+
+}
+
+.main-header {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to bottom, transparent 0%, white 100%);
+  margin-top: -150px;
+  height: 150px;
+  width: 100%;
+  content: '';
+}
+
+.login-wrap{
+	width:100%;
+	margin:0 auto;
+	margin-right: auto;
+	margin-left: auto;
+	max-width:500px;
+	min-height:400px;
+	top:120px;
+	position:absolute;
+}
+.login-html{
+	float:none;
+	margin:0 auto;
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:60px 20px 50px 20px;
+	background:white;
+	box-shadow: 0px 2px 6px grey;
+}
+.login-form .group .input{
+	width:100%;
+	color:black;
+	display:block;
+}
+.input{
+	border: 0;
+	outline: 0;
+	background: transparent;
+	border-bottom: 1px solid grey;
+}
+.login-form .group .label{
+	color:grey;
+}
+
+.RM {
+	color: black;
+	padding: 10px;
+}
+
+.input:hover{
+	border: 0;
+	outline: 0;
+	background: transparent;
+	border-bottom: 1px solid #3498db;
+}
+
+.button {
+		background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+		top: 320px;
+		left: 300px;
+		position: absolute;
+		box-shadow: 0px 2px 6px grey;
+}
+
+.brand {
+	left:550px;
+	top:-300px;
+	z-index:1;
+	position: absolute;
+}
+.btitle {
+	left: 120px;
+	top: -10px;
+	font-size:4em;
+	position: absolute;
+}
+.titlesm {
+	left:210px;
+	top:15px;
+	z-index:1;
+	position: absolute;
+}
+.sinopsis {
+	top:170px;
+	left: 570px;
+	position: absolute;
+	font-size: 20px;
+	width: 500px;
+	max-width: 100%;
+}
+
+.buttonL {
+	top:260px;
+	left: 570px;
+	position: absolute;
+	font-size: 20px;
+	background-color: transparent;
+	border: 2px solid white;
+	color: white;
+	padding: 15px 50px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	position: absolute;
+
+}
+@media (max-width: @screen-xs) {
+    body{font-size: 10px;}
+}
+
+@media (max-width: @screen-sm) {
+    body{font-size: 14px;}
+}

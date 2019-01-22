@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="utf-8">
+  <title>Monica-Register</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="header">
+        <img src="breather-163391.png" class="header-img img-responsive" alt="">
+        <div class="header-overlay">
+  </div>
+  <div class="login-wrap">
+	<div class="login-html col-md-12 col-md-offset-6 col-xs-offset-1 col-sm-offset-5 col-lg-offset-9">
+		<div class="regist-form">
+        <h1 class="title">Create new account</h1>
+				<div class="group">
+					<label for="user" class="label">Username</label>
+					<input id="user" type="text" class="input">
+				</div>
+        <div class="group">
+					<label for="pass" class="label">Email Address</label>
+					<input id="pass" type="text" class="input">
+				</div>
+				<div class="group">
+          <button type="button" id="eye" class="eyebut">
+          <i class="fa fa-eye" aria-hidden="true"></i>
+         </button>
+					<label for="pass" class="label">Password</label>
+					<input id="pwd" type="password" class="input" data-type="password">
+				</div>
+				<div class="group">
+          <button type="button" id="eye" class="eyebut">
+          <i class="fa fa-eye" aria-hidden="true"></i>
+         </button>
+					<label for="pass" class="label">Confirm Password</label>
+					<input id="pwd" type="password" class="input" data-type="password">
+				</div>
+				<div class="group">
+					<input type="submit" class="button" value="SIGN UP">
+				</div>
+        <div class="group">
+          <input id="check" type="checkbox" class="check" checked>
+          <label for="check" class="RM"><span class="icon"></span>Remember me?</label>
+        </div>
+				<div class="foot-lnk">
+					<span>Have an account?</span> <a href="#" class="asign">Sign in</a>
+				</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+document.getElementById("eye").addEventListener("click", function(e){
+        var pwd = document.getElementById("pwd");
+        if(pwd.getAttribute("type")=="password"){
+            pwd.setAttribute("type","text");
+        } else {
+            pwd.setAttribute("type","password");
+        }
+    });
+
+</script>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap.min.js">
+
+</script>
+</body>
+</html>
